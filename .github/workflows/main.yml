@@ -5,7 +5,7 @@ name: CI to DoCker Hub
 on:
   push:
     tags:
-      - "V*.*.*"
+      - "v*.*.*"
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
