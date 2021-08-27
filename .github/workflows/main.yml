@@ -4,6 +4,8 @@ name: CI to DoCker Hub
 # Controls when the workflow will run
 on:
   push:
+    tags:
+      - "V*.*.*"
     branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
